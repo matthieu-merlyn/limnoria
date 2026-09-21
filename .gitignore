@@ -1,0 +1,12 @@
+.DS_Store
+*.bak
+*.pem
+logs/
+logs/*
+tmp/
+backup/
+conf/
+data/
+*.db
+*.pyc
+__pycache__/

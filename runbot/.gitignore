@@ -1,6 +1,0 @@
-*.bak
-logs/
-tmp/
-backup/
-.DS_Store
-runbot/.DS_Store
