@@ -2,6 +2,7 @@
 *.bak
 *.pem
 logs/
+logs/*
 tmp/
 backup/
 conf/
