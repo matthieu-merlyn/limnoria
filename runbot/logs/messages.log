@@ -532,3 +532,160 @@ INFO 2026-09-21T19:20:20 supybot Flushers flushed and garbage collected.
 INFO 2026-09-21T19:20:24 supybot libera: SASL authentication successful
 INFO 2026-09-21T20:20:21 supybot Flushers flushed and garbage collected.
 INFO 2026-09-21T21:20:21 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T21:44:05 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T21:44:05 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T21:44:05 supybot Irc object for libera dying.
+INFO 2026-09-21T21:44:05 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:44:05 supybot Total uptime: 3 hours, 34 minutes, and 36 seconds.
+INFO 2026-09-21T21:44:05 supybot Total CPU time taken: 2.43 seconds.
+INFO 2026-09-21T21:44:05 supybot No more Irc objects, exiting.
+INFO 2026-09-21T21:44:05 supybot Shutdown initiated.
+INFO 2026-09-21T21:44:05 supybot Killing Driver objects.
+INFO 2026-09-21T21:44:05 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:44:05 supybot Killing Irc objects.
+INFO 2026-09-21T21:44:05 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T21:44:05 supybot Finished writing registry file.
+INFO 2026-09-21T21:44:05 supybot Shutdown complete.
+INFO 2026-09-21T21:44:14 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T21:44:14 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T21:44:14 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T21:44:14 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T21:44:21 supybot libera: SASL authentication successful
+INFO 2026-09-21T21:44:22 supybot Server lead.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T21:44:22 supybot Got start of MOTD from lead.libera.chat
+INFO 2026-09-21T21:44:22 supybot Got end of MOTD from lead.libera.chat
+INFO 2026-09-21T21:44:32 supybot Join to #merlyniskapot on libera synced in 4.36 seconds.
+INFO 2026-09-21T21:44:33 supybot Join to #alosta on libera synced in 5.40 seconds.
+INFO 2026-09-21T21:45:10 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:45:15 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:45:17 supybot Received notice from NickServ on libera: "Insufficient parameters for SET PASSWORD.".
+INFO 2026-09-21T21:45:27 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:45:29 supybot Received notice from NickServ on libera: "The password for MerlynBot has been successfully changed.".
+INFO 2026-09-21T21:45:59 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T21:45:59 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T21:45:59 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:45:59 supybot Irc object for libera dying.
+INFO 2026-09-21T21:45:59 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:45:59 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T21:45:59 supybot Total uptime: 1 minute and 45 seconds.
+INFO 2026-09-21T21:45:59 supybot Total CPU time taken: 0.44 seconds.
+INFO 2026-09-21T21:45:59 supybot No more Irc objects, exiting.
+INFO 2026-09-21T21:45:59 supybot Shutdown initiated.
+INFO 2026-09-21T21:45:59 supybot Killing Driver objects.
+INFO 2026-09-21T21:45:59 supybot Killing Irc objects.
+INFO 2026-09-21T21:45:59 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T21:45:59 supybot Finished writing registry file.
+INFO 2026-09-21T21:45:59 supybot Shutdown complete.
+INFO 2026-09-21T21:48:05 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T21:48:05 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T21:48:05 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T21:48:05 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+WARNING 2026-09-21T21:48:12 supybot libera: SASL authentication failed (mechanism: plain): SASL authentication failed
+INFO 2026-09-21T21:48:13 supybot Server lithium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T21:48:13 supybot Got start of MOTD from lithium.libera.chat
+INFO 2026-09-21T21:48:13 supybot Got end of MOTD from lithium.libera.chat
+INFO 2026-09-21T21:48:23 supybot Join to #merlyniskapot on libera synced in 4.24 seconds.
+INFO 2026-09-21T21:48:24 supybot Join to #alosta on libera synced in 5.28 seconds.
+INFO 2026-09-21T21:48:40 supybot help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:48:49 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:49:06 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:49:13 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:49:19 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:49:26 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:49:45 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:49:47 supybot Received notice from NickServ on libera: "Invalid NickServ command.".
+INFO 2026-09-21T21:49:47 supybot Received notice from NickServ on libera: "Use /msg NickServ HELP for a NickServ command listing.".
+INFO 2026-09-21T21:49:55 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "***** NickServ Help *****".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "NickServ allows users to 'register' a nickname, and stop".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "others from using that nick. NickServ allows the owner of a".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "nickname to disconnect a user from the network that is using".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "their nickname.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "The following commands are available:".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  ACCESS          Changes and shows your nickname access list.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  CERT            Changes and shows your nickname CertFP authentication list.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  GHOST           Reclaims use of a nickname.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  IDENTIFY        Identifies to services for a nickname.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  INFO            Displays information on registrations.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  LISTCHANS       Lists channels that you have access to.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  LOGOUT          Logs your services session out.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  REGAIN          Regain usage of a nickname.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  REGISTER        Registers a nickname.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  RELEASE         Releases a services enforcer.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  SENDPASS        Email registration passwords.".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "The following additional commands are available:".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "  ACC, HELP, SETPASS, STATUS, TAXONOMY, VERIFY".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "For more information on a NickServ command, type:".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "/msg NickServ HELP <command>".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "For a verbose listing of all NickServ commands, type:".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "/msg NickServ HELP COMMANDS".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T21:49:57 supybot Received notice from NickServ on libera: "***** End of Help *****".
+INFO 2026-09-21T21:50:09 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:50:10 supybot Received notice from NickServ on libera: "Invalid password for MerlynBot.".
+INFO 2026-09-21T21:50:42 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:50:43 supybot Received notice from NickServ on libera: "Invalid password for MerlynBot.".
+INFO 2026-09-21T21:50:56 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:50:57 supybot Received "Password accepted" from NickServ on libera.
+INFO 2026-09-21T21:50:57 supybot Received notice from NickServ on libera: "Last login from: ~MerlynBot@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be on Sep 21 19:45:59 2026 +0000.".
+INFO 2026-09-21T21:50:57 supybot Received notice from NickServ on libera: "3 failed logins since last login.".
+INFO 2026-09-21T21:50:57 supybot Received notice from NickServ on libera: "Last failed attempt from: MerlynBot!~MerlynBot@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be on Sep 21 19:50:43 2026 +0000.".
+INFO 2026-09-21T21:50:57 supybot Received notice from NickServ on libera: "You have logged in using NickServ. We recommend logging in via SASL instead.".
+INFO 2026-09-21T21:50:57 supybot Received notice from NickServ on libera: "For more information please see https://libera.chat/guides/sasl".
+INFO 2026-09-21T21:51:21 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T21:51:23 supybot Received notice from NickServ on libera: "Added fingerprint 312e794a4da6b0882a39ee2c9d601e2b8d2af42f4f6762971a45b96d0eede826b0e40a977bc1e69cf015469263475c172e21665bd706ba024ecdd54cce695342 to your fingerprint list.".
+INFO 2026-09-21T21:54:05 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T21:54:05 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T21:54:05 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:54:05 supybot Irc object for libera dying.
+INFO 2026-09-21T21:54:05 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:54:05 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T21:54:05 supybot Total uptime: 6 minutes and 0 seconds.
+INFO 2026-09-21T21:54:05 supybot Total CPU time taken: 0.68 seconds.
+INFO 2026-09-21T21:54:05 supybot No more Irc objects, exiting.
+INFO 2026-09-21T21:54:05 supybot Shutdown initiated.
+INFO 2026-09-21T21:54:05 supybot Killing Driver objects.
+INFO 2026-09-21T21:54:05 supybot Killing Irc objects.
+INFO 2026-09-21T21:54:05 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T21:54:05 supybot Finished writing registry file.
+INFO 2026-09-21T21:54:05 supybot Shutdown complete.
+INFO 2026-09-21T21:54:09 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T21:54:09 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T21:54:09 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T21:54:09 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+WARNING 2026-09-21T21:54:16 supybot libera: SASL authentication failed (mechanism: plain): SASL authentication failed
+INFO 2026-09-21T21:54:17 supybot Server gallium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T21:54:17 supybot Got start of MOTD from gallium.libera.chat
+INFO 2026-09-21T21:54:17 supybot Got end of MOTD from gallium.libera.chat
+INFO 2026-09-21T21:54:24 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T21:54:24 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T21:54:24 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:54:24 supybot Irc object for libera dying.
+INFO 2026-09-21T21:54:24 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T21:54:24 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T21:54:24 supybot Total uptime: 15 seconds.
+INFO 2026-09-21T21:54:24 supybot Total CPU time taken: 0.32 seconds.
+INFO 2026-09-21T21:54:24 supybot No more Irc objects, exiting.
+INFO 2026-09-21T21:54:24 supybot Shutdown initiated.
+INFO 2026-09-21T21:54:24 supybot Killing Driver objects.
+INFO 2026-09-21T21:54:24 supybot Killing Irc objects.
+INFO 2026-09-21T21:54:24 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T21:54:24 supybot Finished writing registry file.
+INFO 2026-09-21T21:54:24 supybot Shutdown complete.
+INFO 2026-09-21T21:54:47 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T21:54:47 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T21:54:47 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T21:54:47 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T21:54:54 supybot libera: SASL authentication successful
+INFO 2026-09-21T21:54:55 supybot Server lithium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T21:54:55 supybot Got start of MOTD from lithium.libera.chat
+INFO 2026-09-21T21:54:55 supybot Got end of MOTD from lithium.libera.chat
+INFO 2026-09-21T21:55:05 supybot Join to #merlyniskapot on libera synced in 4.25 seconds.
+INFO 2026-09-21T21:55:06 supybot Join to #alosta on libera synced in 5.30 seconds.
