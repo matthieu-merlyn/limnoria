@@ -33,3 +33,502 @@ INFO 2026-09-20T22:18:54 supybot Killing Irc objects.
 INFO 2026-09-20T22:18:54 supybot Writing registry file to MerlynBot.conf
 INFO 2026-09-20T22:18:54 supybot Finished writing registry file.
 INFO 2026-09-20T22:18:54 supybot Shutdown complete.
+INFO 2026-09-21T11:10:57 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T11:10:57 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T11:10:57 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T11:10:57 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T11:11:03 supybot Server iridium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T11:11:03 supybot Got start of MOTD from iridium.libera.chat
+INFO 2026-09-21T11:11:03 supybot Got end of MOTD from iridium.libera.chat
+INFO 2026-09-21T11:11:11 supybot Join to #alosta on libera synced in 2.25 seconds.
+INFO 2026-09-21T11:12:51 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:12:58 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:14:03 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:14:07 supybot apropos called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:14:13 supybot apropos called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:14:18 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:14:29 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:14:41 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:14:55 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:15:07 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:15:43 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:16:09 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:16:25 supybot config list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:17:29 supybot help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:17:34 supybot help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:22:15 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:22:21 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:22:25 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:22:53 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:23:10 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:24:06 supybot identify called in private by "gibbon!~gibbon@user/gibbon".
+WARNING 2026-09-21T11:24:06 supybot Failed identification attempt by gibbon!~gibbon@user/gibbon (password did not match for merlynbot).
+INFO 2026-09-21T11:24:16 supybot identify called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:24:36 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T11:24:37 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T11:24:37 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T11:24:37 supybot Irc object for libera dying.
+INFO 2026-09-21T11:24:37 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T11:24:37 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T11:24:37 supybot Total uptime: 13 minutes and 39 seconds.
+INFO 2026-09-21T11:24:37 supybot Total CPU time taken: 0.92 seconds.
+INFO 2026-09-21T11:24:37 supybot No more Irc objects, exiting.
+INFO 2026-09-21T11:24:37 supybot Shutdown initiated.
+INFO 2026-09-21T11:24:37 supybot Killing Driver objects.
+INFO 2026-09-21T11:24:37 supybot Killing Irc objects.
+INFO 2026-09-21T11:24:37 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T11:24:37 supybot Finished writing registry file.
+INFO 2026-09-21T11:24:37 supybot Shutdown complete.
+INFO 2026-09-21T11:36:17 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T11:36:17 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T11:36:17 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T11:36:17 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T11:36:23 supybot Server gallium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T11:36:23 supybot Got start of MOTD from gallium.libera.chat
+INFO 2026-09-21T11:36:23 supybot Got end of MOTD from gallium.libera.chat
+INFO 2026-09-21T11:36:31 supybot Join to #alosta on libera synced in 2.14 seconds.
+INFO 2026-09-21T11:36:40 supybot identify called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:36:45 supybot identify called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:37:15 supybot help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:37:22 supybot hostmask called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:38:08 supybot hostmask called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:39:00 supybot hostmask add called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:39:46 supybot hostmask add called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:40:30 supybot hostmask add called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:41:17 supybot hostmask add called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:42:24 supybot whoami called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:42:50 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:43:00 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:43:08 supybot load called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:43:11 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:43:14 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:43:16 supybot coin called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:43:20 supybot coin called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:43:37 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T11:43:37 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T11:43:37 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T11:43:37 supybot Irc object for libera dying.
+INFO 2026-09-21T11:43:37 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T11:43:37 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T11:43:37 supybot Total uptime: 7 minutes and 20 seconds.
+INFO 2026-09-21T11:43:37 supybot Total CPU time taken: 0.65 seconds.
+INFO 2026-09-21T11:43:37 supybot No more Irc objects, exiting.
+INFO 2026-09-21T11:43:37 supybot Shutdown initiated.
+INFO 2026-09-21T11:43:37 supybot Killing Driver objects.
+INFO 2026-09-21T11:43:37 supybot Killing Irc objects.
+INFO 2026-09-21T11:43:37 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T11:43:37 supybot Finished writing registry file.
+INFO 2026-09-21T11:43:37 supybot Shutdown complete.
+INFO 2026-09-21T11:44:05 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T11:44:05 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T11:44:05 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T11:44:05 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T11:44:11 supybot Server tungsten.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T11:44:11 supybot Got start of MOTD from tungsten.libera.chat
+INFO 2026-09-21T11:44:11 supybot Got end of MOTD from tungsten.libera.chat
+INFO 2026-09-21T11:44:19 supybot Join to #alosta on libera synced in 2.26 seconds.
+INFO 2026-09-21T11:44:28 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:44:32 supybot coin called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:44:34 supybot coin called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:44:36 supybot whoami called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:44:44 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:44:46 supybot dice called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:44:50 supybot dice called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:06 supybot dice called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:16 supybot eightball called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:19 supybot eightball called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:21 supybot eightball called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:22 supybot eightball called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:24 supybot eightball called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:26 supybot eightball called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:33 supybot monologue called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:41 supybot monologue called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:49 supybot roulette called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:52 supybot roulette called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:45:57 supybot roulette called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:46:00 supybot roulette called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:46:01 supybot roulette called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:46:03 supybot roulette called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:46:04 supybot roulette called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:51:36 supybot ping called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:51:39 supybot ping called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:51:52 supybot join called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:51:56 supybot Join to #merlyniskapot on libera synced in 3.30 seconds.
+INFO 2026-09-21T11:52:04 supybot part called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:52:52 supybot config default called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:53:10 supybot config default called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:53:15 supybot more called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:53:57 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:54:01 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:56:25 supybot config help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:56:37 supybot config help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:56:40 supybot config help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:56:47 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:56:52 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:56:55 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:56:58 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:57:03 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T11:57:22 supybot config help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:26:50 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:27:01 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:27:03 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:27:07 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:27:08 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:27:14 supybot dice called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:27:17 supybot dice called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:28:05 supybot config default called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:28:15 supybot config default called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T12:44:06 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T13:20:11 supybot load called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:20:53 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: "An email containing nickname activation instructions has been sent to matthieu.merlyn+bot@gmail.com.".
+WARNING 2026-09-21T13:20:55 supybot Received "Password Incorrect" from NickServ on libera.  Resetting password to empty.
+ERROR 2026-09-21T13:20:55 supybot Uncaught exception in Services.__call__:
+Traceback (most recent call last):
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/log.py", line 363, in m
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/irclib.py", line 203, in __call__
+    method(irc, msg)
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/plugins/Services/plugin.py", line 296, in doNotice
+    self.doNickservNotice(irc, msg)
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/plugins/Services/plugin.py", line 360, in doNickservNotice
+    self._setNickServPassword(nick, '', irc.network)
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/plugins/Services/plugin.py", line 125, in _setNickServPassword
+    assert nick in self.registryValue('nicks', network=network)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+ERROR 2026-09-21T13:20:55 supybot Exception id: 0x2b62f
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: "If you do not complete registration within one day, your nickname will expire.".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: "MerlynBot is now registered to matthieu.merlyn+bot@gmail.com.".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: "For help using the network, please see the Guides".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: "section on our website: https://libera.chat/guides/".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: " ".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: "If you still need help you can /JOIN #libera to find".
+INFO 2026-09-21T13:20:55 supybot Received notice from NickServ on libera: "network staff.".
+INFO 2026-09-21T13:22:08 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:22:09 supybot Received notice from NickServ on libera: "MerlynBot has now been verified.".
+INFO 2026-09-21T13:22:09 supybot Received notice from NickServ on libera: "Thank you for verifying your e-mail address! You have taken steps in ensuring that your registrations are not exploited.".
+INFO 2026-09-21T13:22:09 supybot Received notice from NickServ on libera: "You have been given a default user cloak.".
+INFO 2026-09-21T13:22:49 supybot nickserv called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:22:51 supybot Received "Password accepted" from NickServ on libera.
+INFO 2026-09-21T13:23:29 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:23:43 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:24:23 supybot config search called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:24:26 supybot config search called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:24:36 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:24:43 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:24:44 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:25:26 supybot flush called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:25:58 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T13:25:58 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T13:25:58 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T13:25:58 supybot Irc object for libera dying.
+INFO 2026-09-21T13:25:58 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T13:25:58 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T13:25:58 supybot Total uptime: 1 hour, 41 minutes, and 53 seconds.
+INFO 2026-09-21T13:25:58 supybot Total CPU time taken: 3.26 seconds.
+INFO 2026-09-21T13:25:58 supybot No more Irc objects, exiting.
+INFO 2026-09-21T13:25:58 supybot Shutdown initiated.
+INFO 2026-09-21T13:25:58 supybot Killing Driver objects.
+INFO 2026-09-21T13:25:58 supybot Killing Irc objects.
+INFO 2026-09-21T13:25:58 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T13:25:58 supybot Finished writing registry file.
+INFO 2026-09-21T13:25:58 supybot Shutdown complete.
+INFO 2026-09-21T13:26:17 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T13:26:17 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T13:26:17 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T13:26:17 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T13:26:24 supybot libera: SASL authentication successful
+INFO 2026-09-21T13:26:25 supybot Server lead.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T13:26:25 supybot Got start of MOTD from lead.libera.chat
+INFO 2026-09-21T13:26:25 supybot Got end of MOTD from lead.libera.chat
+INFO 2026-09-21T13:26:33 supybot Join to #alosta on libera synced in 2.25 seconds.
+INFO 2026-09-21T13:26:46 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:26:49 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T13:26:49 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T13:26:49 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T13:26:49 supybot Irc object for libera dying.
+INFO 2026-09-21T13:26:49 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T13:26:49 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T13:26:49 supybot Total uptime: 33 seconds.
+INFO 2026-09-21T13:26:49 supybot Total CPU time taken: 0.33 seconds.
+INFO 2026-09-21T13:26:49 supybot No more Irc objects, exiting.
+INFO 2026-09-21T13:26:49 supybot Shutdown initiated.
+INFO 2026-09-21T13:26:49 supybot Killing Driver objects.
+INFO 2026-09-21T13:26:49 supybot Killing Irc objects.
+INFO 2026-09-21T13:26:49 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T13:26:49 supybot Finished writing registry file.
+INFO 2026-09-21T13:26:49 supybot Shutdown complete.
+INFO 2026-09-21T13:26:50 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T13:26:50 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T13:26:51 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T13:26:51 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T13:26:58 supybot libera: SASL authentication successful
+INFO 2026-09-21T13:26:59 supybot Server mercury.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T13:26:59 supybot Got start of MOTD from mercury.libera.chat
+INFO 2026-09-21T13:26:59 supybot Got end of MOTD from mercury.libera.chat
+INFO 2026-09-21T13:27:07 supybot Join to #alosta on libera synced in 2.16 seconds.
+INFO 2026-09-21T13:27:57 supybot config search called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:28:46 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:29:21 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:29:22 supybot config called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:29:32 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T13:29:32 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T13:29:32 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T13:29:32 supybot Irc object for libera dying.
+INFO 2026-09-21T13:29:32 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T13:29:32 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T13:29:32 supybot Total uptime: 2 minutes and 41 seconds.
+INFO 2026-09-21T13:29:32 supybot Total CPU time taken: 0.43 seconds.
+INFO 2026-09-21T13:29:32 supybot No more Irc objects, exiting.
+INFO 2026-09-21T13:29:32 supybot Shutdown initiated.
+INFO 2026-09-21T13:29:32 supybot Killing Driver objects.
+INFO 2026-09-21T13:29:32 supybot Killing Irc objects.
+INFO 2026-09-21T13:29:32 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T13:29:32 supybot Finished writing registry file.
+INFO 2026-09-21T13:29:32 supybot Shutdown complete.
+INFO 2026-09-21T13:29:34 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T13:29:34 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T13:29:35 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T13:29:35 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T13:29:41 supybot libera: SASL authentication successful
+INFO 2026-09-21T13:29:42 supybot Server lead.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T13:29:42 supybot Got start of MOTD from lead.libera.chat
+INFO 2026-09-21T13:29:42 supybot Got end of MOTD from lead.libera.chat
+INFO 2026-09-21T13:29:50 supybot Join to #alosta on libera synced in 2.24 seconds.
+INFO 2026-09-21T13:31:30 supybot help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:32:16 supybot user capabilities called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:32:24 supybot channel called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:33:53 supybot version called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:33:53 supybot version called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:36:02 supybot load called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:36:03 supybot aka show called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:36:14 supybot aka show called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:36:18 supybot aka list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:36:22 supybot unload called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:37:41 supybot load called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:37:52 supybot help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:37:58 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:38:04 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:38:18 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:38:34 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T13:38:40 supybot flush called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T14:29:35 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T15:43:21 supybot Flushers flushed and garbage collected.
+WARNING 2026-09-21T15:45:33 supybot Ping sent at 2026-09-21T15:43:21 not replied to.
+WARNING 2026-09-21T15:45:33 supybot Error message from libera: Ping sent at 2026-09-21T15:43:21 not replied to.
+INFO 2026-09-21T15:45:33 supybot Reconnecting to libera.
+INFO 2026-09-21T15:45:33 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T15:45:33 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2026-09-21T15:45:42 supybot libera: SASL authentication successful
+INFO 2026-09-21T15:45:43 supybot Server cadmium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T15:45:43 supybot Got start of MOTD from cadmium.libera.chat
+INFO 2026-09-21T15:45:43 supybot Got end of MOTD from cadmium.libera.chat
+INFO 2026-09-21T15:45:52 supybot Join to #alosta on libera synced in 3.18 seconds.
+WARNING 2026-09-21T16:10:31 supybot Ping sent at 2026-09-21T16:02:12 not replied to.
+WARNING 2026-09-21T16:10:31 supybot Error message from libera: Ping sent at 2026-09-21T16:02:12 not replied to.
+INFO 2026-09-21T16:10:31 supybot Reconnecting to libera.
+INFO 2026-09-21T16:10:32 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T16:10:32 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2026-09-21T16:10:36 supybot libera: SASL authentication successful
+INFO 2026-09-21T16:10:37 supybot Server uranium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T16:10:37 supybot Got start of MOTD from uranium.libera.chat
+INFO 2026-09-21T16:10:37 supybot Got end of MOTD from uranium.libera.chat
+INFO 2026-09-21T16:10:45 supybot Join to #alosta on libera synced in 2.46 seconds.
+INFO 2026-09-21T16:41:24 supybot Disconnect from Server(hostname='irc.libera.chat', port=6697, attempt=2, force_tls_verification=False).
+INFO 2026-09-21T16:41:24 supybot Reconnecting to libera at 2026-09-21T16:41:34.
+INFO 2026-09-21T16:41:34 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T16:41:34 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2026-09-21T16:41:41 supybot libera: SASL authentication successful
+INFO 2026-09-21T16:41:42 supybot Server ruthenium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T16:41:42 supybot Got start of MOTD from ruthenium.libera.chat
+INFO 2026-09-21T16:41:42 supybot Got end of MOTD from ruthenium.libera.chat
+INFO 2026-09-21T16:41:51 supybot Join to #alosta on libera synced in 3.37 seconds.
+INFO 2026-09-21T16:43:22 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T17:43:22 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T17:49:20 supybot help called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:49:22 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:49:34 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:49:40 supybot channels called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:50:14 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:50:32 supybot config list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:51:05 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:52:13 supybot nicks called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:52:18 supybot help called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:52:24 supybot channel nicks called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:53:39 supybot list called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:54:37 supybot source called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:54:55 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T17:55:50 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T17:55:54 supybot network called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T17:56:08 supybot whois called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T17:59:39 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T17:59:45 supybot acmd called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T17:59:45 supybot Preventing Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be from calling admin because of -admin.
+WARNING 2026-09-21T17:59:45 supybot Denying Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be for lacking "admin" capability.
+INFO 2026-09-21T18:00:13 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:00:15 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:00:20 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:00:26 supybot network latency called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:00:35 supybot defaultcapability called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:00:38 supybot network latency called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:00:38 supybot Preventing Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be from calling network because of -network.
+WARNING 2026-09-21T18:00:38 supybot Denying Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be for lacking "network" capability.
+INFO 2026-09-21T18:01:15 supybot network latency called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:01:27 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:01:35 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:01:56 supybot unload called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:01:58 supybot unload called in private by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:02:04 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:02:12 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:02:18 supybot announce called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:02:18 supybot Preventing Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be from calling owner because of -owner.
+WARNING 2026-09-21T18:02:18 supybot Denying Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be for lacking "owner" capability.
+INFO 2026-09-21T18:02:29 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:02:38 supybot ircquote called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:02:38 supybot Preventing Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be from calling owner because of -owner.
+WARNING 2026-09-21T18:02:38 supybot Denying Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be for lacking "owner" capability.
+INFO 2026-09-21T18:02:46 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:03:33 supybot chanserv called on #alosta by "gibbon!~gibbon@user/gibbon".
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.413Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '***** \x02ChanServ Help\x02 *****')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.413Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.413Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '\x02ChanServ\x02 gives normal users the ability to maintain control')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.413Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'of a channel, without the need of a bot. Channel takeovers are')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'virtually impossible when a channel is registered with \x02ChanServ\x02.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'Registration is a quick and painless process. Once registered,')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'the founder can maintain complete and total control over the')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'Please note that channels will expire if there are no eligible channel successors.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'Successors are primarily those who have the \x02+S\x02 (if available)')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'or \x02+R\x02 flag set on their account in the channel, although other')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'people may be chosen depending on their access level and activity.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'The following commands are available:')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', "  \x02AKICK          \x02 Manipulates a channel's AKICK list.")).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02CLEAR          \x02 Channel removal toolkit.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02DEOP           \x02 Removes channel ops from a user.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02DEVOICE        \x02 Removes channel voice from a user.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02DROP           \x02 Drops a channel registration.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02FLAGS          \x02 Manipulates specific permissions on a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02GETKEY         \x02 Returns the key (+k) of a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02INFO           \x02 Displays information on registrations.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02INVITE         \x02 Invites you to a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02OP             \x02 Gives channel ops to a user.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02QUIET          \x02 Sets a quiet on a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02REGISTER       \x02 Registers a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02SET            \x02 Sets various control flags.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02TOPIC          \x02 Sets a topic on a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02UNBAN          \x02 Unbans you on a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02UNQUIET        \x02 Removes a quiet on a channel.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02VOICE          \x02 Gives channel voice to a user.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02WHY            \x02 Explains channel access logic.')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'The following additional commands are available:')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02CLAIM\x02, \x02COUNT\x02, \x02HELP\x02, \x02LISTGROUPCHANS\x02, \x02LISTMODES\x02, \x02RECOVER\x02,')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02STATUS\x02, \x02SYNC\x02, \x02TAXONOMY\x02, \x02TEMPLATE\x02, \x02TOPICAPPEND\x02,')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '  \x02TOPICPREPEND\x02, \x02TOPICSWAP\x02')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'For more information on a \x02ChanServ\x02 command, type:')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '\x02/msg ChanServ HELP <command>\x02')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'For a verbose listing of all \x02ChanServ\x02 commands, type:')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '\x02/msg ChanServ HELP COMMANDS\x02')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', ' ')).
+WARNING 2026-09-21T18:03:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:03:35.414Z', 'batch': '6nx0ZvyPlEy3VDT'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', '***** \x02End of Help\x02 *****')).
+INFO 2026-09-21T18:04:25 supybot chanserv called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+WARNING 2026-09-21T18:04:25 supybot Denying Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be for lacking "owner" capability.
+INFO 2026-09-21T18:04:39 supybot verify called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+WARNING 2026-09-21T18:04:39 supybot Denying Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be for lacking "owner" capability.
+INFO 2026-09-21T18:04:43 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:04:49 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:04:58 supybot user changename called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:05:03 supybot whoami called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:05:15 supybot list called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:05:27 supybot echo called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:05:56 supybot success called on #alosta by "Guest72!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be".
+INFO 2026-09-21T18:08:22 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2026-09-21T18:08:22 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T18:08:22 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T18:08:22 supybot Irc object for libera dying.
+INFO 2026-09-21T18:08:22 supybot Driver for Irc object for libera dying.
+INFO 2026-09-21T18:08:22 supybot Removing driver SocketDriver(Irc object for libera).
+INFO 2026-09-21T18:08:22 supybot Total uptime: 4 hours, 38 minutes, and 48 seconds.
+INFO 2026-09-21T18:08:22 supybot Total CPU time taken: 6.97 seconds.
+INFO 2026-09-21T18:08:22 supybot No more Irc objects, exiting.
+INFO 2026-09-21T18:08:22 supybot Shutdown initiated.
+INFO 2026-09-21T18:08:22 supybot Killing Driver objects.
+INFO 2026-09-21T18:08:22 supybot Killing Irc objects.
+INFO 2026-09-21T18:08:22 supybot Writing registry file to MerlynBot.conf
+INFO 2026-09-21T18:08:22 supybot Finished writing registry file.
+INFO 2026-09-21T18:08:22 supybot Shutdown complete.
+INFO 2026-09-21T18:09:29 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T18:09:29 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+ERROR 2026-09-21T18:09:29 supybot Cannot use GPG. python-gnupg is installed but cannot find the gnupg executable.
+INFO 2026-09-21T18:09:29 supybot Starting Limnoria 2026.05.08 on Python 3.12.8 (main, Dec 13 2024, 17:15:45) [Clang 16.0.0 (clang-1600.0.26.4)]
+INFO 2026-09-21T18:09:36 supybot libera: SASL authentication successful
+INFO 2026-09-21T18:09:37 supybot Server osmium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T18:09:37 supybot Got start of MOTD from osmium.libera.chat
+INFO 2026-09-21T18:09:37 supybot Got end of MOTD from osmium.libera.chat
+INFO 2026-09-21T18:09:47 supybot Join to #merlyniskapot on libera synced in 4.29 seconds.
+INFO 2026-09-21T18:09:48 supybot Join to #alosta on libera synced in 5.37 seconds.
+INFO 2026-09-21T18:10:16 supybot Ignoring *!~Guest72@2a02-1812-1531-d200-78f1-31e3-ab71-e920.ip6.access.telenet.be for 600 seconds due to an apparent invalid command flood.
+INFO 2026-09-21T18:12:49 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:12:55 supybot load called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:12:59 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:13:10 supybot plugindownloader install called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:13:19 supybot load called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:13:22 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:13:27 supybot list called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:13:33 supybot start called on #alosta by "gibbon!~gibbon@user/gibbon".
+ERROR 2026-09-21T18:13:33 supybot Uncaught exception in ['start'].
+Traceback (most recent call last):
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/callbacks.py", line 1607, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/utils/python.py", line 91, in g
+    f(self, *args, **kwargs)
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/callbacks.py", line 1573, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "/Users/matthieumerlyn/.venvs/limnoria/lib/python3.12/site-packages/supybot/commands.py", line 1241, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "/Users/matthieumerlyn/Git/limnoria/runbot/plugins/Eureka/plugin.py", line 271, in start
+    state = State(os.path.join(conf.supybot.directories.data(),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/matthieumerlyn/Git/limnoria/runbot/plugins/Eureka/plugin.py", line 60, in __init__
+    self.fd = open(filename)
+              ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/matthieumerlyn/Git/limnoria/runbot/data/Eureka.#alosta.questions'
+ERROR 2026-09-21T18:13:33 supybot Exception id: 0xcfe1a
+INFO 2026-09-21T18:15:57 supybot stop called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:17:25 supybot plugindownloader install called on #alosta by "gibbon!~gibbon@user/gibbon".
+INFO 2026-09-21T18:18:05 supybot plugindownloader install called on #alosta by "gibbon!~gibbon@user/gibbon".
+WARNING 2026-09-21T18:21:35 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:21:35.339Z'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'You have had operator (+o) status given to you on \x02#alosta\x02 by \x02gibbon\x02')).
+INFO 2026-09-21T18:21:35 supybot Received op from ChanServ in #alosta on libera.
+WARNING 2026-09-21T18:21:53 supybot Got unexpected notice from ChanServ on libera: IrcMsg(server_tags={'time': '2026-09-21T16:21:53.118Z'}, prefix="ChanServ!ChanServ@services.libera.chat", command="NOTICE", args=('MerlynBot', 'You have had operator (+o) status given to you on \x02#merlyniskapot\x02 by \x02gibbon\x02')).
+INFO 2026-09-21T18:21:53 supybot Received op from ChanServ in #merlyniskapot on libera.
+WARNING 2026-09-21T18:45:28 supybot Ping sent at 2026-09-21T18:39:16 not replied to.
+WARNING 2026-09-21T18:45:28 supybot Error message from libera: Ping sent at 2026-09-21T18:39:16 not replied to.
+INFO 2026-09-21T18:45:28 supybot Reconnecting to libera.
+INFO 2026-09-21T18:45:28 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T18:45:28 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2026-09-21T18:45:36 supybot libera: SASL authentication successful
+INFO 2026-09-21T18:45:37 supybot Server cadmium.libera.chat has version solanum-1.0-dev
+INFO 2026-09-21T18:45:37 supybot Got start of MOTD from cadmium.libera.chat
+INFO 2026-09-21T18:45:37 supybot Got end of MOTD from cadmium.libera.chat
+INFO 2026-09-21T18:45:48 supybot Join to #merlyniskapot on libera synced in 5.59 seconds.
+INFO 2026-09-21T18:45:49 supybot Join to #alosta on libera synced in 6.31 seconds.
+WARNING 2026-09-21T19:20:19 supybot Ping sent at 2026-09-21T19:02:23 not replied to.
+WARNING 2026-09-21T19:20:19 supybot Error message from libera: Ping sent at 2026-09-21T19:02:23 not replied to.
+INFO 2026-09-21T19:20:19 supybot Reconnecting to libera.
+INFO 2026-09-21T19:20:19 supybot Connecting to irc.libera.chat:6697.
+WARNING 2026-09-21T19:20:20 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2026-09-21T19:20:20 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T19:20:24 supybot libera: SASL authentication successful
+INFO 2026-09-21T20:20:21 supybot Flushers flushed and garbage collected.
+INFO 2026-09-21T21:20:21 supybot Flushers flushed and garbage collected.

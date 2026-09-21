@@ -112,7 +112,7 @@ supybot.alwaysJoinOnInvite: False
 # Default value: -admin -aka.add -aka.remove -aka.set -alias.add -alias.remove -owner
 # -scheduler.add -scheduler.remove -scheduler.repeat -trusted
 ###
-supybot.capabilities: -admin -aka.add -aka.remove -aka.set -alias.add -alias.remove -owner -scheduler.add -scheduler.remove -scheduler.repeat -trusted
+supybot.capabilities: -admin -aka.add -aka.remove -aka.set -alias.add -alias.remove -network -owner -scheduler.add -scheduler.remove -scheduler.repeat -trusted
 
 ###
 # Determines whether the bot by default will allow users to have a
@@ -157,6 +157,12 @@ supybot.commands.allowShell: True
 # Determines what commands have default plugins set, and which plugins
 # are set to be the default for each of those commands.
 ###
+supybot.commands.defaultPlugins.addcapability: Admin
+supybot.commands.defaultPlugins.capabilities: User
+supybot.commands.defaultPlugins.disable: Owner
+supybot.commands.defaultPlugins.enable: Owner
+supybot.commands.defaultPlugins.help: Misc
+supybot.commands.defaultPlugins.ignore: Admin
 
 ###
 # Determines what plugins automatically get precedence over all other
@@ -168,6 +174,10 @@ supybot.commands.allowShell: True
 # Default value: Admin Channel Config Misc Owner User
 ###
 supybot.commands.defaultPlugins.importantPlugins: Admin Channel Config Misc Owner User
+supybot.commands.defaultPlugins.list: Misc
+supybot.commands.defaultPlugins.reload: Owner
+supybot.commands.defaultPlugins.removecapability: Admin
+supybot.commands.defaultPlugins.unignore: Admin
 
 ###
 # Determines what commands are currently disabled. Such commands will
@@ -514,7 +524,7 @@ supybot.followIdentificationThroughNickChanges: False
 #
 # Default value: limnoria
 ###
-supybot.ident: limnoria
+supybot.ident: MerlynBot
 
 ###
 # Determines the bot's default language if translations exist. Currently
@@ -632,7 +642,7 @@ supybot.networks.libera.certfile:
 #
 # Default value: 
 ###
-supybot.networks.libera.channels: #alosta
+supybot.networks.libera.channels: #alosta #merlyniskapot
 
 ###
 # Determines what key (if any) will be used to join the channel.
@@ -640,7 +650,6 @@ supybot.networks.libera.channels: #alosta
 # Default value: 
 ###
 supybot.networks.libera.channels.key: 
-supybot.networks.libera.channels.key.#alosta: #merlyniskapot
 
 ###
 # Determines the bot's ident string, if the server doesn't provide one
@@ -695,7 +704,7 @@ supybot.networks.libera.sasl.mechanisms: scram-sha-256 external ecdsa-nist256p-c
 #
 # Default value: 
 ###
-supybot.networks.libera.sasl.password: 
+supybot.networks.libera.sasl.password: CybersurfrBot-
 
 ###
 # Determines whether the bot will abort the connection if the none of
@@ -711,7 +720,7 @@ supybot.networks.libera.sasl.required: False
 #
 # Default value: 
 ###
-supybot.networks.libera.sasl.username: 
+supybot.networks.libera.sasl.username: MerlynBot
 
 ###
 # Space-separated list of servers the bot will connect to for libera.
@@ -831,7 +840,7 @@ supybot.pidFile:
 #
 # Default value: 
 ###
-supybot.plugins: Admin AutoMode Channel Config Games Misc Network NickAuth User Utilities
+supybot.plugins: Admin Aka AutoMode Channel ChannelLogger Config Games Misc Network NickAuth Owner Services User Utilities
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -848,7 +857,114 @@ supybot.plugins.Admin.public: True
 ###
 # Determines whether this plugin is loaded by default.
 ###
+supybot.plugins.Aka: False
+
+###
+# The maximum number of words allowed in a command name. Setting this to
+# an high value may slow down your bot on long commands.
+#
+# Default value: 5
+###
+supybot.plugins.Aka.maximumWordsInName: 5
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Aka.public: True
+
+###
+# Determines whether the Akas will be browsable through the HTTP server.
+#
+# Default value: False
+###
+supybot.plugins.Aka.web.enable: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
 supybot.plugins.AutoMode: True
+
+###
+# Determines whether the bot will check for 'alternative capabilities'
+# (ie. autoop, autohalfop, autovoice) in addition to/instead of classic
+# ones.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.alternativeCapabilities: True
+
+###
+# Determines whether the bot will automatically ban people who join the
+# channel and are on the banlist.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.ban: True
+
+###
+# Determines how many seconds the bot will automatically ban a person
+# when banning.
+#
+# Default value: 86400
+###
+supybot.plugins.AutoMode.ban.period: 86400
+
+###
+# Determines how many seconds the bot will wait before applying a mode.
+# Has no effect on bans.
+#
+# Default value: 0
+###
+supybot.plugins.AutoMode.delay: 0
+
+###
+# Determines whether this plugin is enabled.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.enable: True
+
+###
+# Extra modes that will be applied to a user. Example syntax: user1+o-v
+# user2+v user3-v
+#
+# Default value: 
+###
+supybot.plugins.AutoMode.extra:  
+
+###
+# Determines whether the bot will "fall through" to halfop/voicing when
+# auto-opping is turned off but auto-halfopping/voicing are turned on.
+#
+# Default value: True
+###
+supybot.plugins.AutoMode.fallthrough: True
+
+###
+# Determines whether the bot will automatically halfop people with the
+# <channel>,halfop capability when they join the channel.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.halfop: False
+
+###
+# Determines whether the bot will automatically op people with the
+# <channel>,op capability when they join the channel.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.op: False
+
+###
+# Determines whether this plugin will automode owners even if they don't
+# have op/halfop/voice/whatever capability.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.owner: False
 
 ###
 # Determines whether this plugin is publicly visible.
@@ -856,6 +972,14 @@ supybot.plugins.AutoMode: True
 # Default value: True
 ###
 supybot.plugins.AutoMode.public: True
+
+###
+# Determines whether the bot will automatically voice people with the
+# <channel>,voice capability when they join the channel.
+#
+# Default value: False
+###
+supybot.plugins.AutoMode.voice: False
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -908,6 +1032,147 @@ supybot.plugins.Channel.rejoinDelay: 0
 ###
 # Determines whether this plugin is loaded by default.
 ###
+supybot.plugins.ChannelLogger: True
+
+###
+# Determines whether the bot will partition its channel logs into
+# separate directories based on different criteria.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.directories: True
+
+###
+# Determines whether the bot will use a channel directory if using
+# directories.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.directories.channel: True
+
+###
+# Determines whether the bot will use a network directory if using
+# directories.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.directories.network: True
+
+###
+# Determines whether the bot will use a timestamp (determined by
+# supybot.plugins.ChannelLogger.directories.timestamp.format) if using
+# directories.
+#
+# Default value: False
+###
+supybot.plugins.ChannelLogger.directories.timestamp: False
+
+###
+# Determines what timestamp format will be used in the directory
+# structure for channel logs if
+# supybot.plugins.ChannelLogger.directories.timestamp is True.
+#
+# Default value: %B
+###
+supybot.plugins.ChannelLogger.directories.timestamp.format: %B
+
+###
+# Determines whether logging is enabled.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.enable: True
+
+###
+# Determines how to represent the timestamp used for the filename in
+# rotated logs. When this timestamp changes, the old logfiles will be
+# closed and a new one started. The format characters for the timestamp
+# are in the time.strftime docs at python.org. In order for your logs to
+# be rotated, you'll also have to enable
+# supybot.plugins.ChannelLogger.rotateLogs.
+#
+# Default value: %Y-%m-%d
+###
+supybot.plugins.ChannelLogger.filenameTimestamp: %Y-%m-%d
+
+###
+# Determines whether channel logfiles will be flushed anytime they're
+# written to, rather than being buffered by the operating system.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.flushImmediately: True
+
+###
+# Determines what string a message should be prefixed with in order not
+# to be logged. If you don't want any such prefix, just set it to the
+# empty string.
+#
+# Default value: [nolog]
+###
+supybot.plugins.ChannelLogger.noLogPrefix: [nolog]
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.public: True
+
+###
+# Determines whether the bot will rewrite outgoing relayed messages (eg.
+# from the Relay plugin) to use the original nick instead of the bot's
+# nick.
+#
+# Default value: False
+###
+supybot.plugins.ChannelLogger.rewriteRelayed: False
+
+###
+# Determines whether the bot will automatically rotate the logs for this
+# channel. The bot will rotate logs when the timestamp for the log
+# changes. The timestamp is set according to the 'filenameTimestamp'
+# configuration variable.
+#
+# Default value: False
+###
+supybot.plugins.ChannelLogger.rotateLogs: False
+
+###
+# Determines whether users going away and coming back should be logged.
+# This is only supported on networks implementing the 'away-notify'
+# IRCv3 capability.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.showAway: True
+
+###
+# Determines whether joins and parts are logged
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.showJoinParts: True
+
+###
+# Determines whether formatting characters (such as bolding, color,
+# etc.) are removed when writing the logs to disk.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.stripFormatting: True
+
+###
+# Determines whether the logs for this channel are timestamped with the
+# timestamp in supybot.log.timestampFormat.
+#
+# Default value: True
+###
+supybot.plugins.ChannelLogger.timestamp: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
 supybot.plugins.Config: True
 
 ###
@@ -920,7 +1185,7 @@ supybot.plugins.Config.public: True
 ###
 # Determines whether this plugin is loaded by default.
 ###
-supybot.plugins.Games: False
+supybot.plugins.Games: True
 
 ###
 # Determines whether this plugin is publicly visible.
@@ -1016,7 +1281,7 @@ supybot.plugins.Network.public: True
 ###
 # Determines whether this plugin is loaded by default.
 ###
-supybot.plugins.NickAuth: True
+supybot.plugins.NickAuth: False
 
 ###
 # Determines whether this plugin is publicly visible.
@@ -1024,6 +1289,138 @@ supybot.plugins.NickAuth: True
 # Default value: True
 ###
 supybot.plugins.NickAuth.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Owner: True
+
+###
+# Determines the format of messages sent by the 'announce' command.
+# $owner may be used for the username of the owner calling this command,
+# and $text for the announcement being made.
+#
+# Default value: Announcement from my owner ($owner): $text
+###
+supybot.plugins.Owner.announceFormat: Announcement from my owner ($owner): $text
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Owner.public: True
+
+###
+# Determines what quit message will be used by default. If the quit
+# command is called without a quit message, this will be used. If this
+# value is empty, the nick of the person giving the quit command will be
+# used. The standard substitutions ($version, $nick, etc.) are all
+# handled appropriately.
+#
+# Default value: Limnoria $version
+###
+supybot.plugins.Owner.quitMsg: Limnoria $version
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Services: True
+
+###
+# Determines what nick the 'ChanServ' service has.
+#
+# Default value: ChanServ
+###
+supybot.plugins.Services.ChanServ: ChanServ
+
+###
+# Determines whether the bot will request to get half-opped by the
+# ChanServ when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.halfop: False
+
+###
+# Determines whether the bot will request to get opped by the ChanServ
+# when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.op: False
+
+###
+# Determines what password the bot will use with ChanServ.
+#
+# Default value: 
+###
+supybot.plugins.Services.ChanServ.password: 
+
+###
+# Determines whether the bot will request to get voiced by the ChanServ
+# when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.voice: False
+
+###
+# Determines what nick the 'NickServ' service has.
+#
+# Default value: NickServ
+###
+supybot.plugins.Services.NickServ: NickServ
+
+###
+# Determines what networks this plugin will be disabled on.
+#
+# Default value: QuakeNet
+###
+supybot.plugins.Services.disabledNetworks: QuakeNet
+
+###
+# Determines the NickServ command to use for GHOST. If the network
+# you're using runs Anope, set this to "RECOVER". If the network you're
+# using runs Atheme, set this to "GHOST" or "REGAIN".
+#
+# Default value: GHOST
+###
+supybot.plugins.Services.ghostCommand: GHOST
+
+###
+# Determines how many seconds the bot will wait between successive GHOST
+# attempts. Set this to 0 to disable GHOST.
+#
+# Default value: 60
+###
+supybot.plugins.Services.ghostDelay: 60
+
+###
+# Space-separated list of nicks the bot will use with services. Don't
+# change this config value yourself, use the 'services password' command
+# instead.
+#
+# Default value: 
+###
+supybot.plugins.Services.nicks:  
+
+###
+# Determines whether the bot will not join any channels until it is
+# identified. This may be useful, for instances, if you have a vhost
+# that isn't set until you're identified, or if you're joining +r
+# channels that won't allow you to join unless you identify.
+#
+# Default value: False
+###
+supybot.plugins.Services.noJoinsUntilIdentified: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Services.public: True
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -1526,7 +1923,7 @@ supybot.reply.showSimpleSyntax: False
 #
 # Default value: 
 ###
-supybot.reply.whenAddressedBy.chars: @
+supybot.reply.whenAddressedBy.chars: @!
 
 ###
 # Determines whether the bot will reply when people address it by its
@@ -1686,4 +2083,4 @@ supybot.upkeepInterval: 3600
 #
 # Default value: Limnoria $version
 ###
-supybot.user: Limnoria $version
+supybot.user: I am MerlynBot bleep bloop

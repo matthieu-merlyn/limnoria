@@ -1,0 +1,10 @@
+.DS_Store
+*.bak
+logs/
+tmp/
+backup/
+conf/
+data/
+*.db
+*.pyc
+__pycache__/
