@@ -5,7 +5,6 @@ logs/
 logs/*
 tmp/
 backup/
-conf/
 data/
 *.db
 *.pyc
