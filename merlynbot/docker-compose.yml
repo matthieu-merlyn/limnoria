@@ -1,0 +1,14 @@
+services:
+  limnoria:
+    image: lscr.io/linuxserver/limnoria:latest
+    container_name: merlynbot
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Brussels
+
+    volumes:
+      - ./config:/config
+
+    restart: unless-stopped
