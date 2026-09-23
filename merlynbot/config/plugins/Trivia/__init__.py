@@ -1,5 +1,5 @@
 ###
-# Copyright (c) 2011, Valentin Lorentz
+# Copyright (c) 2010, quantumlemur
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -28,32 +28,44 @@
 
 ###
 
-import supybot.conf as conf
-import supybot.registry as registry
-from supybot.i18n import PluginInternationalization, internationalizeDocstring
+"""
+Add a description of the plugin (to be presented to the user inside the wizard)
+here.  This should describe *what* the plugin does.
+"""
 
-_ = PluginInternationalization('Eureka')
+import supybot
+import supybot.world as world
 
-def configure(advanced):
-    # This will be called by supybot to configure this module.  advanced is
-    # a bool that specifies whether the user identified himself as an advanced
-    # user or not.  You should effect your configuration by manipulating the
-    # registry as appropriate.
-    from supybot.questions import expect, anything, something, yn
-    conf.registerPlugin('Eureka', True)
+# Use this for the version of this plugin.  You may wish to put a CVS keyword
+# in here if you're keeping the plugin in CVS or some similar system.
+__version__ = "1.0"
 
+# XXX Replace this with an appropriate author or supybot.Author instance.
+__author__ = supybot.Author('quantumlemur', 'quantumlemur',
+                'quantumlemur@users.sourceforge.net')
 
-Eureka = conf.registerPlugin('Eureka')
-# This is where your configuration variables (if any) should go.  For example:
-# conf.registerGlobalValue(Eureka, 'someConfigVariableName',
-#     registry.Boolean(False, _("""Help for someConfigVariableName.""")))
+# This is a dictionary mapping supybot.Author instances to lists of
+# contributions.
+if not hasattr(supybot.authors, 'progval'):
+    supybot.authors.progval = supybot.Author('Valentin Lorentz', 'ProgVal',
+                                            'progval@gmail.com')
+    __contributors__ = {supybot.authors.progval: ['code enhancement']}
 
-conf.registerGroup(Eureka, 'format')
-conf.registerChannelValue(Eureka.format, 'score',
-    registry.String('$nick ($score)', _("""Determines the format used by the
-    bot to display the score of a user.""")))
-conf.registerChannelValue(Eureka.format, 'separator',
-    registry.String(' // ', _("""Determines the string between two
-    user scores.""")))
+# This is a url where the most recent plugin package can be downloaded.
+__url__ = '' # 'http://supybot.com/Members/yourname/Trivia/download'
+
+from . import config
+from . import plugin
+from importlib import reload
+reload(plugin) # In case we're being reloaded.
+# Add more reloads here if you add third-party modules and want them to be
+# reloaded when this plugin is reloaded.  Don't forget to import them as well!
+
+if world.testing:
+    from . import test
+
+Class = plugin.Class
+configure = config.configure
+
 
 # vim:set shiftwidth=4 tabstop=4 expandtab textwidth=79:
