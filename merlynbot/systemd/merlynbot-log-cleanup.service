@@ -1,0 +1,6 @@
+[Unit]
+Description=Clean up old MerlynBot Limnoria logs
+
+[Service]
+Type=oneshot
+ExecStart=/home/matthieu_merlyn/merlynbot/cleanup-logs.sh

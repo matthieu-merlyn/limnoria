@@ -50,6 +50,18 @@ jobs:
             merlynbot/ \
             "${DEPLOY_USER}@${DEPLOY_HOST}:~/merlynbot/"
 
+      - name: Install log cleanup
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            "${DEPLOY_USER}@${DEPLOY_HOST}" \
+            'sudo cp ~/merlynbot/systemd/merlynbot-log-cleanup.service /etc/systemd/system/merlynbot-log-cleanup.service &&
+              sudo cp ~/merlynbot/systemd/merlynbot-log-cleanup.timer /etc/systemd/system/merlynbot-log-cleanup.timer &&
+              sudo systemctl daemon-reload &&
+              sudo systemctl enable --now merlynbot-log-cleanup.timer'
+
       - name: Restart container
         env:
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
