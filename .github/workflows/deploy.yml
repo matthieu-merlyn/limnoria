@@ -4,8 +4,13 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: "Git commit SHA to deploy"
+        required: true
+        type: string
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -13,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.commit || github.sha }}
 
       - name: Configure SSH
         env:
@@ -52,7 +59,7 @@ jobs:
             "${DEPLOY_USER}@${DEPLOY_HOST}" \
             'cd ~/merlynbot && docker compose up -d --force-recreate --remove-orphans'
 
-      - name: Check container
+      - name: Check if bot is running after container restart
         env:
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
@@ -60,3 +67,7 @@ jobs:
           ssh -i ~/.ssh/deploy_key \
             "${DEPLOY_USER}@${DEPLOY_HOST}" \
             'docker ps --filter name=merlynbot --format "table {{.Names}}\t{{.Status}}"'
+
+          ssh -i ~/.ssh/deploy_key \
+            "${DEPLOY_USER}@${DEPLOY_HOST}" \
+            'docker logs --tail 30 merlynbot'
