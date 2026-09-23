@@ -50,7 +50,7 @@ jobs:
         run: |
           ssh -i ~/.ssh/deploy_key \
             "${DEPLOY_USER}@${DEPLOY_HOST}" \
-            'cd ~/merlynbot && docker compose up -d'
+            'cd ~/merlynbot && docker compose up -d --force-recreate --remove-orphans'
 
       - name: Check container
         env:
