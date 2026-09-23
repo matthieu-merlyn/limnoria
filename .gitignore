@@ -9,3 +9,4 @@ data/
 *.db
 *.pyc
 __pycache__/
+._*
