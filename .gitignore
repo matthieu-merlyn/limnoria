@@ -10,3 +10,7 @@ data/
 *.pyc
 __pycache__/
 ._*
+config/logs/
+config/tmp/
+config/backup/
+config/data/
