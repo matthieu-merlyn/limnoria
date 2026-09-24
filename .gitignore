@@ -14,3 +14,5 @@ config/logs/
 config/tmp/
 config/backup/
 config/data/
+!merlynbot/config/plugins/Shuffle/data/
+!merlynbot/config/plugins/Shuffle/data/*
