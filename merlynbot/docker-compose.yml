@@ -10,6 +10,7 @@ services:
 
     volumes:
       - ./config:/config
+      - ./custom-cont-init.d:/custom-cont-init.d:ro
 
     logging:
       driver: json-file

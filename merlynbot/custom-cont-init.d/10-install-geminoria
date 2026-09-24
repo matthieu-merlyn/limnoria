@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+echo "**** Installing Geminoria dependencies ****"
+
+python3 -m pip install \
+  --no-cache-dir \
+  -r /config/plugins/Geminoria/requirements.txt
