@@ -90,6 +90,7 @@ class Trivia(callbacks.Plugin):
             self.num = num
             self.numAsked = 0
             self.hints = 0
+            self.hintusers = set()
             self.games = plugin.games
             # self.scores = plugin.scores
             # self.scorefile = plugin.scorefile
@@ -118,6 +119,7 @@ class Trivia(callbacks.Plugin):
 
 
         def newquestion(self):
+            self.hintusers = set()
             inactiveShutoff = self.registryValue('inactiveShutoff',
                                                  self.channel)
             if self.num == 0:
@@ -219,15 +221,20 @@ class Trivia(callbacks.Plugin):
               pass
           self.newquestion()
         
-        def hintcommand(self):
-            if self.hints >= self.registryValue('numHints', self.channel):
-                self.reply(_("Sorry, you're out of hints for this question."))
-            else:
-                try:
-                    schedule.removeEvent('next_%s' % self.channel)
-                except KeyError:
-                    pass
-                self.hint()
+        def hintcommand(self, irc, msg, args):
+            channel = ircutils.toLower(msg.args[0])
+
+            if channel not in self.games:
+                return
+
+            game = self.games[channel]
+
+            if msg.nick in game.hintusers:
+                irc.reply(_('You have already used your hint for this question.'))
+                return
+
+            game.hintusers.add(msg.nick)
+            game.hint()
                 
         def answer(self, msg):
             correct = False
