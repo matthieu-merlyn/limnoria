@@ -342,6 +342,8 @@ class Trivia(callbacks.Plugin):
         else:
             irc.reply(_("Trivia is currently not active in this channel."))
 
+    hint = wrap(hint, ['channel'])
+
     @internationalizeDocstring
     def next(self, irc, msg, args, channel):
         """[<channel>]
