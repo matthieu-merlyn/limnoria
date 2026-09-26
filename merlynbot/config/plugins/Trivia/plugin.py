@@ -56,18 +56,18 @@ class Trivia(callbacks.Plugin):
         self.__parent = super(Trivia, self)
         self.__parent.__init__(irc)
         self.games = {}
-        self.scores = {}
-        self.scorefile = self.registryValue('scoreFile')
-        if not os.path.exists(self.scorefile):
-            f = open(self.scorefile, 'w')
-            f.close()
-        f = open(self.scorefile, 'r')
-        line = f.readline()
-        while line:
-            (name, score) = line.split(' ')
-            self.scores[name] = int(score.strip('\r\n'))
-            line = f.readline()
-        f.close()
+        # self.scores = {}
+        # self.scorefile = self.registryValue('scoreFile')
+        # if not os.path.exists(self.scorefile):
+        #     f = open(self.scorefile, 'w')
+        #     f.close()
+        # f = open(self.scorefile, 'r')
+        # line = f.readline()
+        # while line:
+        #     (name, score) = line.split(' ')
+        #     self.scores[name] = int(score.strip('\r\n'))
+        #     line = f.readline()
+        # f.close()
 
 
     def doPrivmsg(self, irc, msg):
@@ -91,8 +91,8 @@ class Trivia(callbacks.Plugin):
             self.numAsked = 0
             self.hints = 0
             self.games = plugin.games
-            self.scores = plugin.scores
-            self.scorefile = plugin.scorefile
+            # self.scores = plugin.scores
+            # self.scorefile = plugin.scorefile
             self.language = language
             self.questionfile = os.path.join(
                 os.path.dirname(self.registryValue('questionFile')),
@@ -239,17 +239,21 @@ class Trivia(callbacks.Plugin):
                 #if self.registryValue('debug'):
                 #    self.reply('Distance: %d' % dist)
             if correct:
-                if not msg.nick in self.scores:
-                    self.scores[msg.nick] = 0
-                self.scores[msg.nick] += 1
-                if not msg.nick in self.roundscores:
+                # if not msg.nick in self.scores:
+                #     self.scores[msg.nick] = 0
+                # self.scores[msg.nick] += 1
+                # if not msg.nick in self.roundscores:
+                #     self.roundscores[msg.nick] = 0
+                # self.roundscores[msg.nick] += 1
+                if msg.nick not in self.roundscores:
                     self.roundscores[msg.nick] = 0
                 self.roundscores[msg.nick] += 1
+
                 self.unanswered = 0
                 self.reply(_('%s got it!  The full answer was: %s. Points: %d') %
-                           (msg.nick, self.a[0], self.scores[msg.nick]))
+                    (msg.nick, self.a[0], self.roundscores[msg.nick]))
                 schedule.removeEvent('next_%s' % self.channel)
-                self.writeScores()
+                # self.writeScores()
                 self.newquestion()
 
 
