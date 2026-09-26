@@ -192,22 +192,36 @@ class Trivia(callbacks.Plugin):
 
 
         def hint(self):
+
             self.hints += 1
+
             ans = self.a[0]
             hintPercentage = self.registryValue('hintPercentage', self.channel)
-            divider = int(math.ceil(len(ans) * hintPercentage * self.hints ))
+            divider = int(math.ceil(len(ans) * hintPercentage * self.hints))
+
             if divider == len(ans):
                 divider -= 1
-            show = ans[ : divider]
-            blank = ans[divider : ]
+
+            show = ans[:divider]
+            blank = ans[divider:]
+
             blankChar = self.registryValue('blankChar', self.channel)
-            blank = re.sub('\w', blankChar, blank)
+            blank = re.sub('*\w*', blankChar, blank)
+
             self.reply(_('HINT: %s%s') % (show, blank))
+
             def event():
                 self.timedEvent()
+
             timeout = self.registryValue('timeout', self.channel)
             numHints = self.registryValue('numHints', self.channel)
             eventTime = time.time() + timeout / (numHints + 1)
+
+            try:
+                schedule.removeEvent('next_%s' % self.channel)
+            except KeyError:
+                pass
+
             if self.active:
                 schedule.addEvent(event, eventTime, 'next_%s' % self.channel)
 
