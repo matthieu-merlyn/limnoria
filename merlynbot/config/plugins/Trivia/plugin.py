@@ -221,20 +221,6 @@ class Trivia(callbacks.Plugin):
               pass
           self.newquestion()
         
-        def hintcommand(self, irc, msg, args):
-            channel = ircutils.toLower(msg.args[0])
-
-            if channel not in self.games:
-                return
-
-            game = self.games[channel]
-
-            if msg.nick in game.hintusers:
-                irc.reply(_('You have already used your hint for this question.'))
-                return
-
-            game.hintusers.add(msg.nick)
-            game.hint()
                 
         def answer(self, msg):
             correct = False
@@ -340,14 +326,21 @@ class Trivia(callbacks.Plugin):
     @internationalizeDocstring
     def hint(self, irc, msg, args, channel):
         """[<channel>]
-        
         Invokes the next hint for the current question"""
+
         channel = ircutils.toLower(channel)
+
         if channel in self.games:
-            self.games[channel].hintcommand()
-        else:    
+            game = self.games[channel]
+
+            if msg.nick in game.hintusers:
+                irc.reply(_('You have already used your hint for this question.'))
+                return
+
+            game.hintusers.add(msg.nick)
+            game.hint()
+        else:
             irc.reply(_("Trivia is currently not active in this channel."))
-    hint = wrap(hint, ['channel'])
 
     @internationalizeDocstring
     def next(self, irc, msg, args, channel):
